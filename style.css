@@ -16,7 +16,7 @@ header {
 
 .peek{
     position: absolute;
-    top: 6%;
+    top: 13%;
     right: .1%;
     width: 110px;
     z-index: 999;
