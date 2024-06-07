@@ -120,7 +120,8 @@ header {
 }
 
 header h1 {
-    margin:2vh;
+    position: relative;
+    margin: 2vh;
     font-family: Satisfy;
     transition: font-size 0.5s ease; 
     font-size: 5vh;/* Add transition for smooth font size change */
@@ -145,6 +146,7 @@ header h1 {
 
     
     header h1 {
+        left: 3%;
         font-size: 3vh;
     }
 
