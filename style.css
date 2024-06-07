@@ -206,16 +206,16 @@ header h1 {
     }
 
     .train-1{
-    width:18%;
+    width:25%;
     top:32vh;
-    left:41vh;
+    left:33vh;
     }
     
     .train-2{
-    width: 12%;
+    width: 18%;
     z-index:999;
     top:54vh;
-    left:5vh;
+    left:7vh;
 }
 
 }
