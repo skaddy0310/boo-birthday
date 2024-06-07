@@ -1,0 +1,174 @@
+body {
+    font-family: Optima;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    background-color: #FEF2F2;
+    color: #a9535d;
+    padding: 1%;
+    text-align: center;
+    transition: height 0.5s ease; /* Add transition for smooth height change */
+}
+
+
+.wrapper {
+  display: flex; /* Enable flexbox layout */
+  height: 100vh; /* Set container height to 100% viewport height */
+}
+
+.dummy-menu {
+  flex: 1; /* Left section takes up 1 part of available space */
+}
+
+
+.dummy-right {
+  flex: 1; /* Left section takes up 1 part of available space */
+}
+
+
+
+
+.menu-toggle-btn {
+    font-family: Optima;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #a9535d;
+}
+
+.menu {
+    width: 270px;
+    height: 100%;
+    background-color: #FEF2F2;
+    overflow-y: auto;
+    position: relative;
+    left: -270px; /* Initially position the menu off-screen */
+    transition: left 0.5s ease; /* Add transition for smooth sliding animation */
+    z-index: 1000;
+}
+
+.menu.open {
+    left: 0; /* Slide the menu into view when it has the 'open' class */
+}
+
+.content {
+    flex: 3; /* Right section takes up 2 parts of available space */
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    z-index: 1;
+    transition: transform 0.5s ease, left 0.5s ease; /* Add transition for smooth margin change */
+    text-align: center; /* Align content in the center */
+
+}
+
+
+.menu-item {
+    padding: 10px;
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    color:#a9535d;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.content h2 {
+    font-size: 8vh; 
+    font-family: Playball;/* Increase font size */
+    font-weight: 300;
+    margin: 2%;
+}
+
+.section {
+    display: none;
+    opacity: 0; /* Initially hide the section */
+    transition: opacity 0.5s ease; /* Add transition for opacity change */
+}
+
+.section.active {
+    display: block;
+    opacity: 1; /* Show the section with fade-in animation */
+}
+
+.content p{
+    font-family:caveat;
+    font-size: 4vh;
+    font-weight:200;
+}
+
+.menu-toggle-gif {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 999;
+    width: 100px;
+    height: auto;
+}
+
+header h1 {
+    margin:2vh;
+    font-family: Satisfy;
+    transition: font-size 0.5s ease; 
+    font-size: 5vh;/* Add transition for smooth font size change */
+    font-weight: 500;
+}
+
+/* Add media query for smaller screens */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 2%;
+        height: 69px; /* Adjust the height for smaller screens */
+    }
+
+    .menu-toggle-gif {
+        width: 75px;
+    }
+
+    header h1 {
+        padding-left: 0px;
+        font-size: 6vh;
+    }
+
+    .menu {
+        width: 201px;
+    }
+
+    .content {
+        margin-top: 10px;
+    }
+
+    .menu-item {
+        font-size: 16px;
+    }
+    
+    
+    .dummy-menu {
+      flex: 1; /* Left section takes up 1 part of available space */
+    }
+
+    .content{
+    left:-8%;
+    }
+    
+    .dummy-right {
+      flex: 1; /* Left section takes up 1 part of available space */
+    }
+
+}
