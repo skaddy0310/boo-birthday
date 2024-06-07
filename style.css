@@ -142,7 +142,7 @@ header h1 {
     }
 
     header h1 {
-        padding-left: 0;
+        top: 0vh;
         font-size: 3vh;
     }
 
@@ -168,15 +168,15 @@ header h1 {
     
     
     .dummy-menu {
-      flex: 1; /* Left section takes up 1 part of available space */
+      flex: .4; /* Left section takes up 1 part of available space */
     }
 
     .content{
-    left:-8%;
+    left:-20%;
     }
     
     .dummy-right {
-      flex: 1; /* Left section takes up 1 part of available space */
+      flex: .4; /* Left section takes up 1 part of available space */
     }
 
 }
