@@ -134,7 +134,7 @@ header h1 {
 @media screen and (max-width: 768px) {
     header {
         padding: 2%;
-        height: 69px; /* Adjust the height for smaller screens */
+        height: 2vh; /* Adjust the height for smaller screens */
     }
 
     .menu-toggle-gif {
