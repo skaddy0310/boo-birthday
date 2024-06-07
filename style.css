@@ -135,18 +135,36 @@ header h1 {
     height: auto;
     z-index:999;
     top:42vh;
-    left:165vh;
+    left:155vh;
 }
 
 .train-2{
     position:fixed;
-    width: 12%;
+    width: 8%;
     height: auto;
     z-index:999;
     top:54vh;
-    left:5vh;
+    left:26vh;
 }
 
+
+.angry-1{
+    position:fixed;
+    width:9%;
+    height:auto;
+    z-index: 999;
+    top:52vh;
+    left:151vh;
+}
+    
+.angry-2{
+    position:fixed;
+    width: 11%;
+    height: auto;
+    z-index:999;
+    top:39vh;
+    left:24vh;
+}
 
 /* Add media query for smaller screens */
 @media screen and (max-width: 768px) {
@@ -212,10 +230,24 @@ header h1 {
     }
     
     .train-2{
-    width: 18%;
+    width: 20%;
     z-index:999;
     top:54vh;
     left:7vh;
+}
+
+    
+    .angry-1{
+    width:25%;
+    top:49vh;
+    left:33vh;
+    }
+    
+    .angry-2{
+    width: 28%;
+    z-index:999;
+    top:14vh;
+    left:5vh;
 }
 
 }
