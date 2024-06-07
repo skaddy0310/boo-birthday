@@ -166,6 +166,37 @@ header h1 {
     left:24vh;
 }
 
+
+.alone-1{
+    position:fixed;
+    width:14%;
+    height:auto;
+    z-index: 999;
+    top:60vh;
+    left:155vh;
+}
+    
+.alone-2{
+    position:fixed;
+    width: 11%;
+    height: auto;
+    z-index:999;
+    top:27vh;
+    left:17vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Add media query for smaller screens */
 @media screen and (max-width: 768px) {
     header {
@@ -247,6 +278,20 @@ header h1 {
     width: 28%;
     z-index:999;
     top:14vh;
+    left:5vh;
+}
+
+    
+    .alone-1{
+    width:25%;
+    top:49vh;
+    left:33vh;
+    }
+    
+    .alone-2{
+    width: 28%;
+    z-index:999;
+    top:20vh;
     left:5vh;
 }
 
