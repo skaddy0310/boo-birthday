@@ -28,7 +28,7 @@ header {
 .menu-toggle-gif {
     position: absolute;
     top: 50%;
-    left: 2%;
+    left: 1%;
     transform: translateY(-50%);
     cursor: pointer;
     z-index: 999;
@@ -135,11 +135,12 @@ header h1 {
     }
 
     .menu-toggle-gif {
-        width: 50px;
+        width: 60px;
     }
 
     .peek {
-        width: 50px;
+        width: 60px;
+        left: 85%;
     }
 
     
