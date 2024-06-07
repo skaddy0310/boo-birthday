@@ -185,9 +185,41 @@ header h1 {
     left:17vh;
 }
 
+.dis-1{
+    position:fixed;
+    width:14%;
+    height:auto;
+    z-index: 999;
+    top:20vh;
+    left:149vh;
+}
+    
+.dis-2{
+    position:fixed;
+    width: 11%;
+    height: auto;
+    z-index:999;
+    top:66vh;
+    left:21vh;
+}
 
-
-
+.help-1{
+    position:fixed;
+    width:10%;
+    height:auto;
+    z-index: 999;
+    top:20vh;
+    left:154vh;
+}
+    
+.help-2{
+    position:fixed;
+    width: 9%;
+    height: auto;
+    z-index:999;
+    top:56vh;
+    left:21vh;
+}
 
 
 
@@ -294,5 +326,32 @@ header h1 {
     top:20vh;
     left:5vh;
 }
+    
+    .dis-1{
+    width:25%;
+    top:49vh;
+    left:33vh;
+    }
+    
+    .dis-2{
+    width: 28%;
+    z-index:999;
+    top:20vh;
+    left:5vh;
+}
 
+    .help-1{
+    width:25%;
+    top:49vh;
+    left:34vh;
+    }
+    
+    .help-2{
+    width: 24%;
+    z-index:999;
+    top:23vh;
+    left:5vh;
+}
+    
+    
 }
