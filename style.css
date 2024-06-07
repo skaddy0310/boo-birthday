@@ -1,4 +1,5 @@
 body {
+    background-color: rgb(255, 237, 237);
     font-family: Optima;
     margin: 0;
     padding: 0;
@@ -6,11 +7,33 @@ body {
 
 header {
     position: relative;
-    background-color: #FEF2F2;
+    background-color: #ffd3d3;
     color: #a9535d;
     padding: 1%;
     text-align: center;
     transition: height 0.5s ease; /* Add transition for smooth height change */
+}
+
+.peek{
+    position: absolute;
+    top: 13%;
+    left: 94%;
+    width: 110px;
+    z-index: 999;
+    height: auto;
+
+}
+
+
+.menu-toggle-gif {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 999;
+    width: 110px;
+    height: auto;
 }
 
 
@@ -28,29 +51,13 @@ header {
   flex: 1; /* Left section takes up 1 part of available space */
 }
 
-
-
-
-.menu-toggle-btn {
-    font-family: Optima;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 10px 20px;
-    font-size: 20px;
-    color: #a9535d;
-}
-
 .menu {
-    width: 270px;
+    width: 350px;
     height: 100%;
-    background-color: #FEF2F2;
+    background-color: #ffd3d3;
     overflow-y: auto;
     position: relative;
-    left: -270px; /* Initially position the menu off-screen */
+    left: -350px; /* Initially position the menu off-screen */
     transition: left 0.5s ease; /* Add transition for smooth sliding animation */
     z-index: 1000;
 }
@@ -77,8 +84,8 @@ header {
 
 
 .menu-item {
-    padding: 10px;
-    font-size: 20px;
+    padding: 15px;
+    font-size: 24px;
     border-bottom: 1px solid #ccc;
     cursor: pointer;
     color:#a9535d;
@@ -112,17 +119,6 @@ header {
     font-weight:200;
 }
 
-.menu-toggle-gif {
-    position: absolute;
-    top: 50%;
-    left: 3%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    z-index: 999;
-    width: 100px;
-    height: auto;
-}
-
 header h1 {
     margin:2vh;
     font-family: Satisfy;
@@ -142,6 +138,11 @@ header h1 {
         width: 50px;
     }
 
+    .peek {
+        width: 50px;
+    }
+
+    
     header h1 {
         font-size: 3vh;
     }
