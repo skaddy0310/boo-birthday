@@ -132,7 +132,7 @@ header h1 {
 }
 
 /* Add media query for smaller screens */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
     header {
         padding: 2%;
         height: 7vh; /* Adjust the height for smaller screens */
