@@ -64,6 +64,7 @@ header {
     position: relative;
     top: 0;
     left: 0;
+    margin:1vh;
     width: 50%;
     height: 100vh;
     box-sizing: border-box;
@@ -134,15 +135,14 @@ header h1 {
 @media screen and (max-width: 768px) {
     header {
         padding: 2%;
-        height: 12vh; /* Adjust the height for smaller screens */
+        height: 7vh; /* Adjust the height for smaller screens */
     }
 
     .menu-toggle-gif {
-        width: 75px;
+        width: 50px;
     }
 
     header h1 {
-        top: 0vh;
         font-size: 3vh;
     }
 
@@ -168,7 +168,7 @@ header h1 {
     
     
     .dummy-menu {
-      flex: .4; /* Left section takes up 1 part of available space */
+      flex: 3; /* Left section takes up 1 part of available space */
     }
 
     .content{
