@@ -168,15 +168,16 @@ header h1 {
     
     
     .dummy-menu {
-      flex: 3; /* Left section takes up 1 part of available space */
+      flex: 0; /* Left section takes up 1 part of available space */
     }
 
     .content{
+    flex:10;
     left:-22%;
     }
     
     .dummy-right {
-      flex: .4; /* Left section takes up 1 part of available space */
+      flex: 0; /* Left section takes up 1 part of available space */
     }
 
 }
